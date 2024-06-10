@@ -17,6 +17,7 @@ dependencies = [
     "lhotse~=1.20.0",
     "datasets~=2.17.0",
     "optimum~=1.16.2",
+    "ratarmount>=0.15.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
