@@ -6,6 +6,7 @@
 #   features: []
 #   all-features: false
 #   with-sources: false
+#   generate-hashes: false
 
 -e file:.
 absl-py==2.0.0
@@ -533,6 +534,7 @@ ruamel-yaml==0.17.35
     # via hyperpyyaml
 ruamel-yaml-clib==0.2.8
     # via ruamel-yaml
+ruff==0.4.8
 safetensors==0.4.1
     # via accelerate
     # via transformers
