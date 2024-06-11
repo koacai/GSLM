@@ -159,7 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-*.ckpt 
+*.ckpt
 examples/outputs/
 examples/multirun/
 fairseq_manifest/
@@ -173,3 +173,7 @@ u2s_weights/
 ulm_*/
 *.json
 *.jsonl
+
+corpus/
+manifest/
+quantized/

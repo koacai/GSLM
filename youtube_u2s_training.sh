@@ -1,6 +1,6 @@
 #! /bin/bash
-#PJM -L rscgrp=short-a
-#PJM -L node=1
+#PJM -L rscgrp=share
+#PJM -L gpu=1
 #PJM -g ge43
 #PJM -j
 set -x

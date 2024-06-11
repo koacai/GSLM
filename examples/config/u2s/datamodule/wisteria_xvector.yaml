@@ -27,4 +27,4 @@ cfg:
       _target_: speechbrain.pretrained.EncoderClassifier.from_hparams
       source: "speechbrain/spkrec-xvect-voxceleb"
     sr: 16_000
-  use_pitch: true
+  use_pitch: false
