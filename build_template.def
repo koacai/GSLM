@@ -1,0 +1,18 @@
+Bootstrap: docker
+From: nvcr.io/nvidia/pytorch:24.05-py3
+%post
+    #apt
+    apt update
+    apt -y upgrade
+    apt -y install git sox ffmpeg
+    git clone https://github.com/koacai/GSLM.git
+    cd GSLM
+    pip install -e .
+    cd ..
+    rm -rf GSLM
+%environment
+    export LC_ALL=C.UTF-8
+    export LANG=C.UTF-8
+%labels
+    Author acai_berry
+    Version v0.0.0
